@@ -1,0 +1,191 @@
+.signin-maincontainer{
+    display: flex;
+}
+.signin-maincontainer-left{
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 159px;
+    padding-left: 152px;
+}
+.signin-maincontainer-right{
+    width: 50%;
+}
+.signin-maincontainer-laundryheading{
+    text-align: left;
+font: normal normal 900 100px/120px Avenir;
+letter-spacing: 0px;
+color: #5861AE;
+text-transform: capitalize;
+opacity: 1;
+
+}
+.signin-maincontainer-laundrydescription{
+    text-align: left;
+font: normal normal normal 20px/26px Avenir;
+margin-top: 14px;
+letter-spacing: 0.8px;
+color: #565657;
+text-transform: capitalize;
+
+opacity: 1;
+}
+.signin-maincontainer-donthaveanaccount{
+   margin-bottom: 16.5px;
+   margin-top: 74px;
+text-align: left;
+font: normal normal normal 16px/26px Avenir;
+letter-spacing: 0.64px;
+color: #565657;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.signin-maincontainer-registerbutton{
+    text-align: center;
+font: normal normal bold 15px/20px Open Sans;
+letter-spacing: 0.3px;
+color: #4552C1;
+opacity: 1;
+border: 2px solid #4552C1;
+border-radius: 4px;
+opacity: 1;
+padding-top: 14px;
+padding-left: 43px;
+padding-bottom: 16px;
+background: white;
+padding-right: 43px;
+}
+.signin-maincontainer-signinheading{
+    text-align: left;
+/* font: normal normal medium 32px/60px Avenir; */
+font-family: open-sans, sans-serif;
+
+
+font-size: 32px;
+line-height: 60px;
+letter-spacing: 1.28px;
+color: #4552C1;
+text-transform: uppercase;
+opacity: 1;
+
+padding-top: 182px;
+}
+.signin-maincontainer-right{
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+opacity: 1;
+padding-left: 130px;
+}
+
+.signin-form{
+    margin-top: 65px;
+}
+.sigin-button{
+    width: 150px;
+height: 50px;
+background: #4552C1 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+padding-top: 14px;
+    padding-left: 43px;
+    padding-bottom: 16px;
+
+    padding-right: 43px;
+    text-align: center;
+font: normal normal  15px/20px Open Sans;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+border: none;
+margin-top: 82.5px;
+margin-left: 130px;
+}
+
+.custom-field {
+    position: relative;
+    font-size: 17px;
+    border-top: 20px solid transparent;
+    margin-bottom: 5px;
+    --field-padding: 12px;
+  }
+  
+  .custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    padding: var(--field-padding);
+    
+    width: 370px;
+    outline: none;
+    font-size: 14px;
+    
+  }
+  
+  .custom-field .placeholder {
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 22px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+      padding-bottom: 25px;
+  }
+  
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:focus + .placeholder,
+  .custom-field input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    font-size: 12px;
+    letter-spacing: 0.42px;
+    color: #5861AE;
+  }
+  
+  .custom-field.two input {
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background:
+      linear-gradient(90deg, #5861AE, #5861AE) center bottom/0 0.15em no-repeat,
+      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+      linear-gradient(90deg, #f8f9ff,#f8f9ff) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  
+  .custom-field.two input.dirty,
+  .custom-field.two input:not(:placeholder-shown),
+  .custom-field.two input:focus {
+    background-size: 100% 0.15em, 100% 0.1em, 100%;
+  }
+  .signin-forgot-password{
+    padding-left: 230px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: open-sans, sans-serif;
+letter-spacing: 0.64px;
+color: #4552C1;
+text-transform: capitalize;
+opacity: 1;
+  }
+  .padlock-image-signin{
+    margin-top: -10px;
+    z-index: 8;
+  }
+  .signin-error{
+    text-decoration: none;
+    color: red;
+    margin-top: 5px;
+    
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+  }

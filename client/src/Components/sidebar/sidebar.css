@@ -1,0 +1,27 @@
+
+
+.sidebar-section {
+    background-color: #5861AE;
+    width : 57px;
+    height : 801px;
+}
+
+.sidebar-icons-div {
+    /* border: 1px solid rgb(0, 255, 64); */
+    margin-top: 22px;
+}
+
+
+.sidebar-icons {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 57px;
+    height: 47px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sidebar-list {
+    background-color: #FFFFFF;
+}

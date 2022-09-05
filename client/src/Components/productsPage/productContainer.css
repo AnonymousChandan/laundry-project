@@ -1,0 +1,117 @@
+.main-center-container {
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+
+.products-container-main {
+    /* border: 1px solid black; */
+    width: auto;
+}
+/* .ordersHeader {
+    border : 1px solid black
+} */
+
+.product-listing {
+   /* border : 1px solid rgb(251, 0, 255); */
+   height: 100%;
+   width: 1295px;
+   height: auto; 
+   margin-left: auto;
+   margin-right: auto;
+}
+.product-detail{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.product-image{
+    width: 45px;
+    height: 43px;
+}
+
+.product-text {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.washType-icons {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.wash-icon {
+    width: 25.2px;
+    height: 29.37px;
+}
+
+.quantity-input {
+    border: 1px solid #BABABA;
+    width: 63px;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.t-body-tr {
+ /* border: 1px solid rgb(64, 255, 0); */
+ /* display: flex; */
+ /* align-items: center; */
+ /* justify-content: center; */
+}
+
+.product-btns {
+    /* border: 1px solid black; */
+    /* margin-left: 900px; */
+    float: right;
+}
+
+
+.cancel-product {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #5861AE;
+    width: 107px;
+    height: 32px;
+    border: 1px solid #5861AE;
+}
+
+.proceed-product {
+    border: none;
+    background-color: #5861AE;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    width: 107px;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.Price-product {
+    /* border: 1px solid black */
+}
+
+.product-price-p {
+    margin-top: 10px;
+    /* border: 1px solid black */
+}
+.product-reset{    
+    border: 1px solid #5861AE;
+    border-radius: 4px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    text-align: left;
+    font: normal normal 600 14px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #5861AE;
+    opacity: 1;
+    background-color: #ffffff;
+}
